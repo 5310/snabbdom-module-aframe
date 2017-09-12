@@ -1,0 +1,32 @@
+{
+  "name": "@scio/snabbdom-module-aframe",
+  "version": "1.0.0",
+  "description": "Snabbdom module to directly set A-Frame components",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "unpkg": "dist/snabbdom-module-aframe.min.js",
+  "author": "Sayantan Chaudhuri",
+  "license": "MIT",
+  "repository": "5310/snabbdom-module-aframe",
+  "scripts": {
+    "build": "./node_modules/.bin/gulp"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "devDependencies": {
+    "babel-core": "6.x",
+    "babel-preset-env": "1.x",
+    "child-process-promise": "2.x",
+    "gulp": "3.x",
+    "gulp-babel": "7.x",
+    "gulp-better-rollup": "1.x",
+    "gulp-rename": "1.x",
+    "rollup": "0.x",
+    "rollup-plugin-babel": "3.x",
+    "rollup-plugin-commonjs": "8.x",
+    "rollup-plugin-node-resolve": "3.x",
+    "rollup-plugin-uglify": "2.x"
+  }
+}
