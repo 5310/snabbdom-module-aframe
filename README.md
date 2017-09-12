@@ -54,6 +54,8 @@ Yes, this could have been an array of strings, but I wanted to the three objects
 
 ## Example
 
+Using Cycle.js and CycleDOM:
+
 ```js
 const main = ({ DOM }) => {
   return {
@@ -76,6 +78,7 @@ const main = ({ DOM }) => {
 const drivers = {
   DOM: makeDOMDriver("body", {
     modules: [
+      // Other Snabbdom modules...
       snabbdomModuleAframe
     ]
   })
